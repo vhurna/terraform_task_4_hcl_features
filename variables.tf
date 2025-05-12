@@ -15,3 +15,9 @@ variable "location" {
   type        = string
   default     = "West Europe"
 }
+
+variable "admin_password" {
+  description = "Admin password to VM"
+  type        = string
+  sensitive   = true
+}
